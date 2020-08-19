@@ -11,6 +11,18 @@ The primary difference from `std::future` is that you can attach callbacks to Fu
 
 This enables sequential and parallel composition of Futures for cleaner asynchronous code.
 
+### Dependency 
+
+To get a movable `std::function` variant Include function2 in your project
+
+https://github.com/Naios/function2
+
+### Build example.cpp
+
+```sh
+clang++ --std=c++17 example.cpp -I /path/to/naios/function2
+```
+
 ## Usage Synopsis
 
 ```C++

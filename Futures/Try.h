@@ -23,9 +23,7 @@
 #ifndef ARANGOD_FUTURES_TRY_H
 #define ARANGOD_FUTURES_TRY_H 1
 
-#include "Basics/Common.h"
-#include "Basics/debugging.h"
-#include "Basics/system-compiler.h"
+#include "debugging.h"
 
 #include <exception>
 #include <type_traits>

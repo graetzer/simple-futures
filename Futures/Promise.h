@@ -23,9 +23,9 @@
 #ifndef ARANGOD_FUTURES_PROMISE_H
 #define ARANGOD_FUTURES_PROMISE_H 1
 
-#include "Futures/Exceptions.h"
-#include "Futures/SharedState.h"
-#include "Futures/Unit.h"
+#include "Exceptions.h"
+#include "SharedState.h"
+#include "Unit.h"
 
 namespace arangodb {
 namespace futures {

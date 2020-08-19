@@ -26,9 +26,8 @@
 #include <atomic>
 #include <function2.hpp>
 
-#include "Basics/debugging.h"
-#include "Futures/Try.h"
-#include "Logger/LogMacros.h"
+#include "debugging.h"
+#include "Try.h"
 
 namespace arangodb {
 namespace futures {
